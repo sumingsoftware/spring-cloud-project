@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: global
+  cloud:
+      config:
+        uri: http://localhost:8762/ # 配置中心的地址
+        profile: dev
+        label: master
